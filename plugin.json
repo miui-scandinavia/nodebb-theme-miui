@@ -7,10 +7,14 @@
 		},
 		{
 			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas", "callbacked": true
+		},
+		{
+			"hook": "filter:widgets.getWidgets", "method": "defineWidgets"
 		}
 	],
 	"staticDirs": {
-		"vendor": "static/vendor"
+		"vendor": "static/vendor",
+		"images": "static/images"
 	},
 	"scripts": [
 		"static/lib/lavender.js",

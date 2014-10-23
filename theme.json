@@ -3,5 +3,6 @@
     "name": "MIUI Scandinavia Theme for NodeBB",
     "description": "Theme for MIUI Scandinavia",
     "url": "https://github.com/miui-scandinavia/nodebb-theme-miui",
-    "screenshot": null
+    "screenshot": null,
+    "staticDir": "static"
 }

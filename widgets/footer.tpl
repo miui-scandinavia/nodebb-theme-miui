@@ -1,0 +1,1 @@
+<p>&copy; 2014 <a href="{ base_url }">Miui Scandinavia</a>. All rights reserved</p>
