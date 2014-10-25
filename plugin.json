@@ -12,7 +12,13 @@
 			"hook": "filter:widgets.getWidgets", "method": "defineWidgets"
 		},
 		{
+			"hook": "filter:widget.render:infobox", "method": "renderInfoBox"
+		},
+		{
 			"hook": "filter:widget.render:news", "method": "renderNews"
+		},
+		{
+			"hook": "filter:widget.render:footerinfo", "method": "renderFooter"
 		}
 	],
 	"staticDirs": {
