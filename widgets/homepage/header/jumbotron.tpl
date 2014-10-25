@@ -6,5 +6,5 @@
       <a class="btn btn-primary btn-miui" role="button" href="/readmore">Les mer</a>
       <a class="btn btn-default btn-miui" role="button" href="/download">Last ned</a>
  </span>
-<div id="miui-background"><img src="/plugins/nodebb-theme-miui/images/tmp_0.png"></div>
+ <div id="miui-background"><img src="/plugins/nodebb-theme-miui/images/tmp_0.png"></div>
 </div>
