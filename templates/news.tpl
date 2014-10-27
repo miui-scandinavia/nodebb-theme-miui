@@ -7,7 +7,7 @@
 
 <script>
 $(function(){
-	$.getJSON(RELATIVE_PATH + '/api/category/14/miui-xiaomi-nyheter', function(data){
+	$.getJSON(RELATIVE_PATH + '/api/category/1/miui-xiaomi-nyheter', function(data){
 
 		var months = [
 			"Januar",
