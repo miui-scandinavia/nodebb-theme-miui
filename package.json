@@ -1,25 +1,24 @@
 {
-  "name": "nodebb-theme-lavender",
-  "version": "0.1.12",
-  "description": "Lavender Theme for NodeBB",
+  "name": "nodebb-theme-miui",
+  "version": "0.1.0",
+  "description": "MIUI Scandinavia Theme for NodeBB",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-lavender"
+    "url": "https://github.com/miui-scandinavia/nodebb-theme-miui"
   },
   "keywords": [
     "nodebb",
-    "lavender",
+    "miui",
     "theme",
     "themes"
   ],
   "author": {
-    "name": "psychobunny",
-    "email": "psycho.bunny@hotmail.com"
+    "name": "datagutt",
+    "email": "datagutt@lekanger.no"
   },
-  "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-theme-lavender/issues"
+    "url": "https://github.com/miui-scandinavia/nodebb-theme-miui/issues"
   },
   "peerDependencies": {
     "nodebb-theme-vanilla": "~0.1.27"
