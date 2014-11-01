@@ -16,26 +16,26 @@
         <tr>
           <td>Xiaomi MI3/MI4 WCDMA</td>
           <td>KitKat</td>
-          <td>4.10.24 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.10.24/xiaomi.eu_multi_cancro_4.10.24_v6-4.4.zip">Last ned</a></td>
+          <td>4.10.31 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.10.31/xiaomi.eu_multi_cancro_4.10.31_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MI2/MI2S</td>
           <td>KitKat</td>
-          <td>4.10.24 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.10.24/xiaomi.eu_multi_aries_4.10.24_v6-4.4.zip">Last ned</a></td>
+          <td>4.10.31 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.10.31/xiaomi.eu_multi_aries_4.10.31_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MI2A</td>
           <td>KitKat</td>
-          <td>4.10.24 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.10.24/xiaomi.eu_multi_taurus_4.10.24_v6-4.4.zip">Last ned</a></td>
+          <td>4.10.31 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.10.31/xiaomi.eu_multi_taurus_4.10.31_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MiPAD</td>
           <td>KitKat</td>
-          <td>4.10.24 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.10.24/xiaomi.eu_multi_mocha_4.10.24_v6-4.4.zip">Last ned</a></td>
+          <td>4.10.31 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.10.31/xiaomi.eu_multi_mocha_4.10.31_v6-4.4.zip">Last ned</a></td>
         </tr>
       </tbody>
     </table>
