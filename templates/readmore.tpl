@@ -63,7 +63,7 @@ $(function(){
 			<div class="part part_2 col-xs-12 center-block">
 				<div class="col-md-5">
 					<div style="clear: both;">
-						<div style="height: 180px;" class="clearfix"></div>
+						<div style="height: 180px;" class="hidden-xs"></div>
 						<h3>Kraftige funksjoner</h3>
 						<p>MIUI 6 introduserer en rekke med kraftige funksjoner: marker ukjente numre, få tilgang til gratis Wi-Fi med WiWide, og bruk IVR-systemet. Vi gjør dine hverdagsoppgaver enklere, raskere og mer fornøyelig.</p>
 						<p class="text-left"><a class="btn btn-link btn-lg" title="MIUI6 Funksjoner" href="/functions-miui6">Lær mer om MIUI 6 sine funksjoner</a></p>
