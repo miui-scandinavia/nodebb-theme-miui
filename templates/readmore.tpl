@@ -87,7 +87,7 @@ $(function(){
 			<div class="part part_4 col-xs-12 center-block">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<h2>Sikkerhet</h2>
-					<p>MIUI har et pålitelig innebygd Sikkerhetssenter som utnytter de avanserte sikkerhetsteknologiene fra Tencent, Kingsoft og LBE. Denne komplette sikkerhetsmekanismen sørger for perfekt personvernsbeskytellse for brukerne, og optimialiserer batteri og dataforbruk.
+					<p>MIUI har et pålitelig innebygd Sikkerhetssenter som utnytter de avanserte sikkerhetsteknologiene fra Tencent, Kingsoft og LBE. Denne komplette sikkerhetsmekanismen sørger for perfekt personvernsbeskyttelse for brukerne, og optimialiserer batteri og dataforbruk.
 					</p>
 					<p class="text-center"><a class="btn btn-link btn-lg" title="Design MIUI6" href="/security-miui6">Lær mer om MIUI 6 sin sikkerhet</a></p>
 					<img src="/plugins/nodebb-theme-miui/images/index_47.jpg" class="img-responsive center-block">
