@@ -26,7 +26,7 @@
           <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.11.14/xiaomi.eu_multi_aries_4.11.14_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
-          <tr>Xiaomi Redmi NOTE 4G/LTE</tr>
+          <td>Xiaomi Redmi NOTE 4G/LTE</td>
           <td>KitKat</td>
           <td>4.11.14 (V6)</td>
           <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.11.14/xiaomi.eu_multi_dior_4.11.14_v6-4.4.zip">Last ned</a></td>
