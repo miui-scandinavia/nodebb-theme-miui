@@ -30,6 +30,7 @@
           <td>KitKat</td>
           <td>4.11.14 (V6)</td>
           <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.11.14/xiaomi.eu_multi_dior_4.11.14_v6-4.4.zip">Last ned</a></td>
+        </tr>
         <tr>
           <td>Xiaomi MI2A</td>
           <td>KitKat</td>
