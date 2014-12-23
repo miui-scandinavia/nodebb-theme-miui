@@ -16,32 +16,38 @@
         <tr>
           <td>Xiaomi MI3/MI4 WCDMA</td>
           <td>KitKat</td>
-          <td>4.11.28 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.11.28/xiaomi.eu_multi_cancro_4.11.28_v6-4.4.zip">Last ned</a></td>
+          <td>4.12.19 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.12.19/xiaomi.eu_multi_cancro_4.12.19_v6-4.4.zip">Last ned</a></td>
+        </tr>
+        <tr>
+          <td>Xiaomi MI3 TD-SCDMA</td>
+          <td>KitKat</td>
+          <td>4.12.19 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.12.19/xiaomi.eu_multi_pisces_4.12.19_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MI2/MI2S</td>
           <td>KitKat</td>
-          <td>4.11.28 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.11.28/xiaomi.eu_multi_aries_4.11.28_v6-4.4.zip">Last ned</a></td>
+          <td>4.12.19 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.12.19/xiaomi.eu_multi_aries_4.12.19_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi Redmi NOTE 4G/LTE</td>
           <td>KitKat</td>
-          <td>4.11.28 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.11.28/xiaomi.eu_multi_dior_4.11.28_v6-4.4.zip">Last ned</a></td>
+          <td>4.12.19 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.12.19/xiaomi.eu_multi_dior_4.12.19_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MI2A</td>
           <td>KitKat</td>
-          <td>4.11.28 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.11.28/xiaomi.eu_multi_taurus_4.11.28_v6-4.4.zip">Last ned</a></td>
+          <td>4.12.19 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.12.19/xiaomi.eu_multi_taurus_4.12.19_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MiPAD</td>
           <td>KitKat</td>
-          <td>4.11.28 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.11.28/xiaomi.eu_multi_mocha_4.11.28_v6-4.4.zip">Last ned</a></td>
+          <td>4.12.19 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/4.12.19/xiaomi.eu_multi_mocha_4.12.19_v6-4.4.zip">Last ned</a></td>
         </tr>
       </tbody>
     </table>
