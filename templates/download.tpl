@@ -16,44 +16,50 @@
         <tr>
           <td>Xiaomi MI3/MI4 WCDMA</td>
           <td>KitKat</td>
-          <td>5.1.2 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.2/xiaomi.eu_multi_cancro_5.1.2_v6-4.4.zip">Last ned</a></td>
+          <td>5.1.16 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.16/xiaomi.eu_multi_cancro_5.1.16_v6-4.4.zip">Last ned</a></td>
+        </tr>
+        <tr>
+          <td>Xiaomi Redmi 2 WCDMA</td>
+          <td>KitKat</td>
+          <td>5.1.16 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.16/xiaomi.eu_multi_HM2014811_5.1.16_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MI3 TD-SCDMA</td>
           <td>KitKat</td>
-          <td>5.1.2 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.2/xiaomi.eu_multi_pisces_5.1.2_v6-4.4.zip">Last ned</a></td>
+          <td>5.1.16 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.16/xiaomi.eu_multi_pisces_5.1.16_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MI2/MI2S</td>
           <td>KitKat</td>
-          <td>5.1.2 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.2/xiaomi.eu_multi_aries_5.1.2_v6-4.4.zip">Last ned</a></td>
+          <td>5.1.16 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.16/xiaomi.eu_multi_aries_5.1.16_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi Redmi NOTE 4G/LTE</td>
           <td>KitKat</td>
-          <td>5.1.2 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.2/xiaomi.eu_multi_dior_5.1.2_v6-4.4.zip">Last ned</a></td>
+          <td>5.1.16 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.16/xiaomi.eu_multi_dior_5.1.16_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MI2A</td>
           <td>KitKat</td>
-          <td>5.1.2 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.2/xiaomi.eu_multi_taurus_5.1.2_v6-4.4.zip">Last ned</a></td>
+          <td>5.1.16 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.16/xiaomi.eu_multi_taurus_5.1.16_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MiPAD</td>
           <td>KitKat</td>
-          <td>5.1.2 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.2/xiaomi.eu_multi_mocha_5.1.2_v6-4.4.zip">Last ned</a></td>
+          <td>5.1.16 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.1.16/xiaomi.eu_multi_mocha_5.1.16_v6-4.4.zip">Last ned</a></td>
         </tr>
       </tbody>
     </table>
   </div>
   <div class="panel panel-info">
     <div class="panel-heading">Opphavsrett</div>
-    <div class="panel-body">Den norske oversettelsen er lisensiert under en <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported</a>-lisens.</div>
+    <div class="panel-body">Den norske oversettelsen er lisensiert under en <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.no">Creative Commons Navngivelse-IkkeKommersiell-DelPåSammeVilkår 4.0 Internasjonal</a>-lisens.</div>
   </div>
 </div>
