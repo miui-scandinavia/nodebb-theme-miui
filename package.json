@@ -21,6 +21,6 @@
     "url": "https://github.com/miui-scandinavia/nodebb-theme-miui/issues"
   },
   "peerDependencies": {
-    "nodebb-theme-vanilla": "~0.2.22"
+    "nodebb-theme-vanilla": "^1.0.0"
   }
 }
