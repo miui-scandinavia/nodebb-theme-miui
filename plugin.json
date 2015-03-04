@@ -9,7 +9,6 @@
 			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas", "callbacked": true
 		},
 		{
-<<<<<<< HEAD
 			"hook": "filter:widgets.getWidgets", "method": "defineWidgets"
 		},
 		{
@@ -20,7 +19,6 @@
 		},
 		{
 			"hook": "filter:widget.render:footerinfo", "method": "renderFooter"
-=======
 			"hook": "static:app.load", "method": "init"
 		},
 		{
