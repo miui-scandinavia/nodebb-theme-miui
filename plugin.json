@@ -19,6 +19,8 @@
 		},
 		{
 			"hook": "filter:widget.render:footerinfo", "method": "renderFooter"
+		},
+		{
 			"hook": "static:app.load", "method": "init"
 		},
 		{
