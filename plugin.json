@@ -21,9 +21,6 @@
 			"hook": "filter:widget.render:footerinfo", "method": "renderFooter"
 		},
 		{
-			"hook": "static:app.load", "method": "init"
-		},
-		{
 			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
 		},
 		{
