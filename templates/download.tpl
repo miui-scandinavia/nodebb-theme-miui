@@ -16,50 +16,50 @@
         <tr>
           <td>Xiaomi MI3/MI4 WCDMA</td>
           <td>KitKat</td>
-          <td>5.3.13 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.3.13/xiaomi.eu_multi_cancro_5.3.13_v6-4.4.zip">Last ned</a></td>
+          <td>5.4.24 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.4.24/xiaomi.eu_multi_cancro_5.4.24_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi Redmi 2 WCDMA</td>
           <td>KitKat</td>
-          <td>5.3.13 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.3.13/xiaomi.eu_multi_HM2014811_5.3.13_v6-4.4.zip">Last ned</a></td>
+          <td>5.4.24 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.4.24/xiaomi.eu_multi_HM2014811_5.4.24_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MI3 TD-SCDMA</td>
           <td>KitKat</td>
-          <td>5.3.13 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.3.13/xiaomi.eu_multi_pisces_5.3.13_v6-4.4.zip">Last ned</a></td>
+          <td>5.4.24 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.4.24/xiaomi.eu_multi_pisces_5.4.24_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MI2/MI2S</td>
           <td>Lollipop</td>
-          <td>5.3.13 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.3.13/xiaomi.eu_multi_aries_5.3.13_v6-4.4.zip">Last ned</a></td>
+          <td>5.4.24 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.4.24/xiaomi.eu_multi_aries_5.4.24_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi Redmi NOTE 4G/LTE</td>
           <td>KitKat</td>
-          <td>5.3.13 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.3.13/xiaomi.eu_multi_dior_5.3.13_v6-4.4.zip">Last ned</a></td>
+          <td>5.4.24 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.4.24/xiaomi.eu_multi_dior_5.4.24_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MI2A</td>
           <td>KitKat</td>
-          <td>5.3.13 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.3.13/xiaomi.eu_multi_taurus_5.3.13_v6-4.4.zip">Last ned</a></td>
+          <td>5.4.24 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.4.24/xiaomi.eu_multi_taurus_5.4.24_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MiPAD</td>
           <td>KitKat</td>
-          <td>5.3.13 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.3.13/xiaomi.eu_multi_mocha_5.3.13_v6-4.4.zip">Last ned</a></td>
+          <td>5.4.24 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.4.24/xiaomi.eu_multi_mocha_5.4.24_v6-4.4.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi Mi Note</td>
           <td>KitKat</td>
-          <td>5.3.13 (V6)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.3.13/xiaomi.eu_multi_virgo_5.3.13_v6-4.4.zip">Last ned</a></td>
+          <td>5.4.24 (V6)</td>
+          <td><a class="btn btn-primary btn-miui" href="http://files.miuiandroid.com/5.4.24/xiaomi.eu_multi_virgo_5.4.24_v6-4.4.zip">Last ned</a></td>
         </tr>
       </tbody>
     </table>

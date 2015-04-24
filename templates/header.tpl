@@ -20,21 +20,13 @@
 	<script>
 		var RELATIVE_PATH = "{relative_path}";
 		var config = JSON.parse('{configJSON}');
-		var app = {};
+		var app = {
+			template: "{template.name}"
+		};
 		app.user = JSON.parse('{userJSON}');
 	</script>
 	<script src="{relative_path}/nodebb.min.js?{script-buster}"></script>
-	<script>
-		require.config({
-			baseUrl: "{relative_path}/src/modules",
-			waitSeconds: 3,
-			urlArgs: "{cache-buster}",
-			paths: {
-				'forum': '../forum',
-				'vendor': '../../vendor'
-			}
-		});
-	</script>
+	<!-- IMPORT partials/requirejs-config.tpl -->
 
 	<!-- IF useCustomJS -->
 	{customJS}
@@ -43,10 +35,9 @@
 	<style type="text/css">{customCSS}</style>
 	<!-- ENDIF useCustomCSS -->
 	<link
-	    rel="stylesheet"
-	    type="text/css"
-	    href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags32.css"
-	/>
+		rel="stylesheet"
+		type="text/css"
+		href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags32.css" />
 </head>
 
 <body>
@@ -56,6 +47,5 @@
 			<!-- IMPORT partials/menu.tpl -->
 		</div>
 	</div>
-
 	<div class="container" id="content">
 	<!-- IMPORT partials/noscript/warning.tpl -->

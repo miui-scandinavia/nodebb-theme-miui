@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-miui",
-  "version": "1.0.11",
+  "version": "1.0.38",
   "description": "MIUI Scandinavia Theme for NodeBB",
   "main": "theme.less",
   "repository": {

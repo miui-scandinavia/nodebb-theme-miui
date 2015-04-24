@@ -6,7 +6,7 @@
 <input type="hidden" template-variable="pageCount" value="{pageCount}" />
 
 <div class="category row">
-	<div class="{topic_row_size}" no-widget-class="col-lg-12 col-sm-12" no-widget-target="sidebar">
+	<div class="col-md-9" no-widget-class="col-lg-12 col-sm-12" no-widget-target="sidebar">
 		<!-- IMPORT partials/breadcrumbs.tpl -->
 		<div class="subcategories row">
 			<!-- BEGIN children -->
@@ -16,7 +16,7 @@
 
 		<div class="header category-tools clearfix">
 			<!-- IF privileges.topics:create -->
-			<button id="new_post" class="btn btn-primary">[[category:new_topic_button]]</button>
+			<button id="new_topic" class="btn btn-primary">[[category:new_topic_button]]</button>
 			<!-- ELSE -->
 				<!-- IF !loggedIn -->
 				<a href="/login?next=category/{slug}" class="btn btn-primary">[[category:guest-login-post]]</a>
@@ -25,8 +25,14 @@
 
 			<span class="pull-right">
 				<!-- IF loggedIn -->
-				<button type="button" class="btn btn-default btn-success watch <!-- IF !isIgnored -->hidden<!-- ENDIF !isIgnored -->"><i class="fa fa-eye"></i> [[topic:watch]]</button>
-				<button type="button" class="btn btn-default btn-warning ignore <!-- IF isIgnored -->hidden<!-- ENDIF isIgnored -->"><i class="fa fa-eye-slash"></i> [[category:ignore]]</button>
+				<button type="button" class="btn btn-default btn-success watch <!-- IF !isIgnored -->hidden<!-- ENDIF !isIgnored -->">
+					<i class="fa fa-eye"></i>
+					<span class="visible-sm-inline visible-md-inline visible-lg-inline">[[category:watch]]</span>
+				</button>
+				<button type="button" class="btn btn-default btn-warning ignore <!-- IF isIgnored -->hidden<!-- ENDIF isIgnored -->">
+					<i class="fa fa-eye-slash"></i>
+					<span class="visible-sm-inline visible-md-inline visible-lg-inline">[[category:ignore]]</span>
+				</button>
 				<!-- ENDIF loggedIn -->
 
 				<!-- IMPORT partials/category_tools.tpl -->
@@ -35,7 +41,9 @@
 
 				<div class="dropdown share-dropdown inline-block">
 					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-						[[topic:share]] <span class="caret"></span>
+						<span class="visible-sm-inline visible-md-inline visible-lg-inline">[[topic:share]]</span>
+						<span class="visible-xs-inline"><i class="fa fa-fw fa-share-alt"></i></span>
+						<span class="caret"></span>
 					</button>
 
 					<!-- IMPORT partials/share_dropdown.tpl -->
@@ -49,11 +57,10 @@
 		</div>
 		<!-- ENDIF !topics.length -->
 
-		<ul id="topics-container" itemscope itemtype="http://www.schema.org/ItemList" data-nextstart="{nextStart}">
+		<ul component="category" id="topics-container" itemscope itemtype="http://www.schema.org/ItemList" data-nextstart="{nextStart}">
 			<meta itemprop="itemListOrder" content="descending">
 			<!-- BEGIN topics -->
-			<li class="category-item<!-- IF topics.locked --> locked<!-- ENDIF topics.locked --><!-- IF topics.pinned --> pinned<!-- ENDIF topics.pinned --><!-- IF topics.deleted --> deleted<!-- ENDIF topics.deleted --><!-- IF topics.unread --> unread<!-- ENDIF topics.unread -->" itemprop="itemListElement" data-tid="{topics.tid}" data-index="{topics.index}">
-				<meta itemprop="name" content="{topics.title}">
+			<li component="category/topic" class="category-item {function.generateTopicClass}" data-tid="{topics.tid}" data-index="{topics.index}" data-cid="{topics.cid}" itemprop="itemListElement">
 
 				<div class="category-body">
 					<div class="row">
@@ -72,8 +79,8 @@
 								</a>
 							</div>
 							<div class="category-text">
-								<p><strong><i class="fa fa-thumb-tack<!-- IF !topics.pinned --> hide<!-- ENDIF !topics.pinned -->"></i> <i class="fa fa-lock<!-- IF !topics.locked --> hide<!-- ENDIF !topics.locked -->"></i></strong>
-									<a href="{relative_path}/topic/{topics.slug}" itemprop="url" class="topic-title">{topics.title}</a><br />
+								<p><strong><i component="topic/pinned" class="fa fa-thumb-tack<!-- IF !topics.pinned --> hide<!-- ENDIF !topics.pinned -->"></i> <i component="topic/locked" class="fa fa-lock<!-- IF !topics.locked --> hide<!-- ENDIF !topics.locked -->"></i></strong>
+									<a component="topic/header" href="{relative_path}/topic/{topics.slug}" itemprop="url" class="topic-title">{topics.title}</a><br />
 									<small>
 									[[global:posted_ago, <span class="timeago" title="{topics.relativeTime}"></span>]]
 									<!-- IF !topics.unreplied -->
