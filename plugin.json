@@ -6,7 +6,7 @@
 			"hook": "static:app.load", "method": "init"
 		},
 		{
-			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas", "callbacked": true
+			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas"
 		},
 		{
 			"hook": "filter:widgets.getWidgets", "method": "defineWidgets"
