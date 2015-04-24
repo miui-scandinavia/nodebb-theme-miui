@@ -105,30 +105,31 @@ $('document').ready(function() {
 		}
 	});
 
-	(function() {
-		// loading animation
-		var refreshTitle = app.refreshTitle,
-			loadingBar = $('.loading-bar');
 
-		$(window).on('action:ajaxify.start', function(data) {
-			loadingBar.fadeIn(0).removeClass('reset');
-		});
+	var loadingBar = $('.loading-bar');
 
-		$(window).on('action:ajaxify.loadingTemplates', function() {
-			loadingBar.css('width', '90%');
-		});
+	$(window).on('action:ajaxify.start', function(data) {
+		loadingBar.fadeIn(0).removeClass('reset');
+	});
 
-		app.refreshTitle = function(url) {
-			loadingBar.css('width', '100%');
+	$(window).on('action:ajaxify.loadingTemplates', function() {
+		loadingBar.css('width', '90%');
+	});
+
+	$(window).on('action:ajaxify.contentLoaded', function() {
+		loadingBar.css('width', '100%');
+		setTimeout(function() {
+			loadingBar.fadeOut(250);
+
 			setTimeout(function() {
-				loadingBar.fadeOut(250);
+				loadingBar.addClass('reset').css('width', '0%');
+			}, 250);
+		}, 750);
+	});
 
-				setTimeout(function() {
-					loadingBar.addClass('reset').css('width', '0%');
-				}, 250);
-			}, 750);
-
-			return refreshTitle(url);
-		};
-	}());
+	$(window).on('action:ajaxify.start', function() {
+		if ($('.navbar .navbar-collapse').hasClass('in')) {
+			$('.navbar-header button').click();
+		}
+	});
 });
