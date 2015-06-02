@@ -6,7 +6,7 @@
 					<!-- IF children.link -->
 					<a style="color: {children.color};" href="{children.link}" itemprop="url" target="_blank">
 					<!-- ELSE -->
-					<a style="color: {children.color};" href="{relative_path}/category/{children.slug}" itemprop="url">
+					<a style="color: {children.color};" href="{config.relative_path}/category/{children.slug}" itemprop="url">
 					<!-- ENDIF children.link -->
 						<div
 							id="category-{children.cid}" class="category-header category-header-image-{children.imageClass}"
@@ -17,7 +17,7 @@
 							"
 						>
 							<!-- IF !children.link -->
-							<span class="badge {children.unread-class}"><i class="fa fa-book" data-toggle="tooltip" title="[[global:topics]]"></i> <span class="human-readable-number" title="{children.topic_count}">{children.topic_count}</span>&nbsp; <i class="fa fa-pencil" data-toggle="tooltip" title="[[global:posts]]"></i> <span class="human-readable-number" title="{children.post_count}">{children.post_count}</span></span>
+							<span class="badge {children.unread-class}"><i class="fa fa-book" data-toggle="tooltip" title="[[global:topics]]"></i> <span class="human-readable-number" title="{children.totalTopicCount}">{children.totalTopicCount}</span>&nbsp; <i class="fa fa-pencil" data-toggle="tooltip" title="[[global:posts]]"></i> <span class="human-readable-number" title="{children.totalPostCount}">{children.totalPostCount}</span></span>
 							<!-- ENDIF !children.link -->
 
 							<!-- IF children.icon -->
@@ -31,7 +31,7 @@
 							<!-- IF children.link -->
 							<a href="{children.link}" itemprop="url" target="_blank">
 							<!-- ELSE -->
-							<a href="{relative_path}/category/{children.slug}" itemprop="url">
+							<a href="{config.relative_path}/category/{children.slug}" itemprop="url">
 							<!-- ENDIF children.link-->
 								<h4><!-- IF children.icon --><i class="fa {children.icon} visible-xs-inline"></i> <!-- ENDIF children.icon -->{children.name}</h4>
 							</a>
@@ -41,9 +41,9 @@
 						<!-- BEGIN posts -->
 						<div class="post-preview clearfix">
 							<div class="post-preview-content">
-								<strong><a href="{relative_path}/topic/{children.posts.topic.slug}">{children.posts.topic.title}</a></strong>
+								<strong><a href="{config.relative_path}/topic/{children.posts.topic.slug}">{children.posts.topic.title}</a></strong>
 								<hr/>
-								<a style="color: {children.color};" href="<!-- IF children.posts.user.userslug -->{relative_path}/user/{children.posts.user.userslug}<!-- ELSE -->#<!-- ENDIF children.posts.user.userslug-->">
+								<a style="color: {children.color};" href="<!-- IF children.posts.user.userslug -->{config.relative_path}/user/{children.posts.user.userslug}<!-- ELSE -->#<!-- ENDIF children.posts.user.userslug-->">
 									<img src="{children.posts.user.picture}" title="{children.posts.user.username}" class="pull-left user-img" />
 								</a>
 								<div class="content">
@@ -53,7 +53,7 @@
 							</div>
 							<span class="pull-right post-preview-footer">
 								<span class="timeago" title="{children.posts.relativeTime}"></span> &bull;
-								<a href="{relative_path}/topic/{children.posts.topic.slug}<!-- IF children.posts.index -->/{children.posts.index}<!-- ENDIF children.posts.index -->">[[global:read_more]]</a>
+								<a href="{config.relative_path}/topic/{children.posts.topic.slug}<!-- IF children.posts.index -->/{children.posts.index}<!-- ENDIF children.posts.index -->">[[global:read_more]]</a>
 							</span>
 						</div>
 						<!-- END posts -->

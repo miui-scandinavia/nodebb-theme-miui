@@ -19,31 +19,25 @@
 
 	<script>
 		var RELATIVE_PATH = "{relative_path}";
-		var config = JSON.parse('{configJSON}');
+		var config = JSON.parse('{{configJSON}}');
 		var app = {
-			template: "{template.name}"
+			template: "{template.name}",
+			user: JSON.parse('{{userJSON}}')
 		};
-		app.user = JSON.parse('{userJSON}');
 	</script>
 	<script src="{relative_path}/nodebb.min.js?{script-buster}"></script>
 	<!-- IMPORT partials/requirejs-config.tpl -->
 
 	<!-- IF useCustomJS -->
-	{customJS}
+	{{customJS}}
 	<!-- ENDIF useCustomJS -->
 	<!-- IF useCustomCSS -->
-	<style type="text/css">{customCSS}</style>
+	<style type="text/css">{{customCSS}}</style>
 	<!-- ENDIF useCustomCSS -->
-	<link
-		rel="stylesheet"
-		type="text/css"
-		href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags32.css" />
+
 </head>
 
 <body>
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
-
 	<div class="navbar navbar-default navbar-fixed-top header" role="navigation" id="header-menu">
 		<div class="loading-bar"></div>
 		<div class="container">
