@@ -6,6 +6,14 @@ $('document').ready(function() {
 		var fixed = localStorage.getItem('fixed') || 1,
 			masonry;
 
+		function setContentHeight() {
+			var screenHeight = window.innerHeight;
+			var contentHeight = $('.home-box').height();
+			if (contentHeight < (screenHeight - 49 - 160)) {
+				$('.home-box').css('minHeight', (screenHeight - 49 - 160) + 'px');
+			};
+		}
+
 		function doMasonry() {
 			if($('.masonry').length) {
 				masonry = new Masonry('.masonry', {
@@ -57,6 +65,9 @@ $('document').ready(function() {
 			var container = fixed ? $('.container-fluid') : $('.container');
 			container.toggleClass('container-fluid', fixed !== 1).toggleClass('container', fixed === 1);
 			localStorage.setItem('fixed', fixed);
+			if($('.home-box').length){
+				setContentHeight();
+			}
 		}
 
 		resize(fixed);
@@ -132,4 +143,9 @@ $('document').ready(function() {
 			$('.navbar-header button').click();
 		}
 	});
+
+	
+	if($('.home-box').length){
+		setContentHeight();
+	}
 });

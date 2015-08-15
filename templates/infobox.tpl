@@ -1,13 +1,21 @@
-<div class="jumbotron information-box">
-  <span id="miui-logo"><h1>MIUI6</h1></span>
-  <p>Utviklet i fellesskap, tatt i bruk av mer en 70 millioner brukere.</p>
-  <p>Ett nytt kapittel av MIUI starter nå.</p>
-  <span class="buttons">
-      <a class="btn btn-primary btn-miui" role="button" href="/readmore">Les mer</a>
-      <a class="btn btn-default btn-miui" role="button" href="/download">Last ned</a>
-      <br>
-      <br>
-      <a class="btn btn-default btn-miui" role="button" href="/categories">Gå til forumet</a>
- </span>
- <div id="miui-background"><img src="/plugins/nodebb-theme-miui/images/tmp_0.png"></div>
+<div class="home-box">
+	<div class="home-header">
+		<div class="home-header-inner">
+			<h2>Ikke nøy deg med ensformig design</h2>
+			<p>For å skape den beste opplevelsen, har vi finjustert hele produktet.<br>Nye MIUI 7 er raskere, kraftigere, og designet for deg.</p>
+		</div>
+	</div>
+	<div class="home-body">
+		<ul class="banners clearfix">
+			<li class="li_0">
+				<h3><a href="/readmore"><i class="fa fa-info"></i> Les mer om MIUI</a></h3>
+			</li>
+			<li class="li_1">
+				<h3><a href="/download"><i class="fa fa-download"></i> Last ned MIUI</a></h3>
+			</li>
+			<li class="li_2">
+				<h3><a href="/categories"><i class="fa fa-list"></i> Diskuter i forumet</a></h3>
+			</li>
+		</ul>
+	</div>
 </div>

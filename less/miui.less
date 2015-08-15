@@ -1,8 +1,18 @@
-
-.information-box {
-        background: transparent;
+.home-box {
+        background-color: #fafafa;
+        min-height: 1200px;
+}
+.home-header {   
+    border-bottom: 2px solid #f2f2f2;
+    background-color: #f2f2f2;
+    height: 657px;
+}
+.home-header-inner {
+        width: auto;
         margin: 0 auto;
-        text-align: center;
+        height: 657px;
+        background: #fafafa url(/plugins/nodebb-theme-miui/images/index_7.png) no-repeat center top;
+        padding-top: 345px;
         .btn-miui {
                 border: 1px solid @brand-primary;
                 color: @brand-primary;
@@ -13,48 +23,66 @@
                 height: 40px;
         }
 }
-#miui-background {
-        position: relative;
-        display: block;
-        margin: 0 auto 10px auto;
-        text-align: center;
-        vertical-align: bottom;
-        clear: both;
-        max-width: 1240px;
-        max-height: 377px;
+.home-body {
+    width: auto;
+    margin: 0 auto;
+    padding: 120px 0;
+    padding-left: 0px;      
+    .banners {
+        list-style-type: none;
+         li {
+            box-sizing: border-box;
+            float: left;
+            padding-left: 80px;
+        }
+        .li_0 {
+            border-right: 1px solid #e1e1e1;
+            width: 30%;      
+        }
+        .li_1 {
+            border-right: 1px solid #e1e1e1;
+            width: 37%;
+        }
+        .li_2 {
+            width: 33%;
+        }
+    }
 }
-#miui-background img {
+.home-header h2 {
+    height: 50px;
+    line-height: 50px;
+    color: #727272;
+    /*font-size: 34px;*/
+    text-align: center;
+}
+.home-header p {
+    height: 40px;
+    text-align: center;
+    /*font-size: 18px;*/
+    line-height: 40px;
+}
+
+.flags {
+    .flag a {
+        display: block;
+        text-indent: -99999px;
         width: 100%;
         height: 100%;
-        border: 0;
-        outline: 0;
+    }
 }
-#miui-logo {
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 0;
-        max-width: 373px;
-        height: 121px;
-        background-image: url(/plugins/nodebb-theme-miui/images/MIUI6.png);
-        background-position: center;
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
-        background-repeat: no-repeat;
-        text-align: center;
-        letter-spacing: -.02em;
+.footer {
+        background-color: transparent;
+        height: 160px;
 }
-#miui-logo h1 {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
+.footer-inner {
+    width: auto;
+    margin: 0 auto;
+    padding-top: 60px;
+    border-top: 1px solid #e1e1e1;
 }
-.flags {
-	.flag a {
-		display: block;
-		text-indent: -99999px;
-		width: 100%;
-		height: 100%;
-	}
+.footer .copyright {
+    /*line-height: 20px;*/
+    color: #c5c6c8;
+    /*font-size: 11px;*/
+    text-align: center;
 }
