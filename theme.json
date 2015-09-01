@@ -4,5 +4,5 @@
     "description": "Theme for MIUI Scandinavia",
     "url": "https://github.com/miui-scandinavia/nodebb-theme-miui",
     "screenshot": null,
-    "staticDir": "static"
+    "baseTheme": "nodebb-theme-vanilla"
 }
