@@ -17,7 +17,7 @@
           <td>Xiaomi MI4c</td>
           <td>Lollipop</td>
           <td>5.11.19 (v7)</td>
-          <td><a class="btn btn-primary btn-miui" href="http://miuif.celogeek.com/5.11.19/xiaomi.eu_multi_cancro_5.11.19_v7-5.1.zip">Last ned</a></td>
+          <td><a class="btn btn-primary btn-miui" href="http://miuif.celogeek.com/5.11.19/xiaomi.eu_multi_libra_5.11.19_v7-5.1.zip">Last ned</a></td>
         </tr>
         <tr>
           <td>Xiaomi MI3/MI4 WCDMA</td>
