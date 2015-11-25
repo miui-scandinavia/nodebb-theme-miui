@@ -18,7 +18,11 @@
 								<div class="col-md-12">
 									<div class="topic-profile-pic hidden-xs text-center">
 										<a href="<!-- IF posts.user.userslug -->{config.relative_path}/user/{posts.user.userslug}<!-- ELSE -->#<!-- ENDIF posts.user.userslug -->">
-											<img src="{posts.user.picture}" alt="{posts.user.username}" class="profile-image user-img" title="{posts.user.username}">
+											<!-- IF posts.user.picture -->
+											<img itemprop="image" component="user/picture" data-uid="{posts.user.uid}" src="{posts.user.picture}" align="left" class="img-thumbnail" />
+											<!-- ELSE -->
+											<div class="user-icon" style="background-color: {posts.user.icon:bgColor};">{posts.user.icon:text}</div>
+											<!-- ENDIF posts.user.picture -->
 										</a>
 										<small class="username" title="{posts.user.username}"><a href="<!-- IF posts.user.userslug -->{config.relative_path}/user/{posts.user.userslug}<!-- ELSE -->#<!-- ENDIF posts.user.userslug -->">{posts.user.username}</a></small>
 
@@ -32,10 +36,10 @@
 									</div>
 									<div class="topic-text">
 										<!-- IF @first -->
-										<h3 class="topic-title">
+										<h1 class="topic-title">
 											<p component="post/header" class="topic-title" itemprop="name"><i class="fa fa-thumb-tack <!-- IF !pinned -->hidden<!-- ENDIF !pinned -->"></i> <i class="fa fa-lock <!-- IF !locked -->hidden<!-- ENDIF !locked -->"></i> <span component="topic/title">{title}</span></p>
 											<hr>
-										</h3>
+										</h1>
 										<!-- ENDIF @first -->
 										<div component="post/content" class="post-content" itemprop="text">{posts.content}</div>
 										<!-- IF posts.user.signature -->
@@ -69,9 +73,7 @@
 
 									<div class="dropdown moderator-tools" component="post/tools">
 										<a href="#" data-toggle="dropdown"><i class="fa fa-fw fa-gear"></i></a>
-										<ul class="dropdown-menu" role="menu">
-											<!-- IMPORT partials/topic/post-menu.tpl -->
-										</ul>
+										<ul class="dropdown-menu" role="menu"></ul>
 									</div>
 
 									<!-- IF !reputation:disabled -->
@@ -103,26 +105,19 @@
 										<!-- ENDIF posts.user.userslug -->
 										<!-- ENDIF !posts.selfPost -->
 
-										<button component="post/quote" class="btn btn-sm btn-link <!-- IF !privileges.topics:reply -->hidden<!--ENDIF !privileges.topics:reply -->" type="button" title="[[topic:quote]]"><i class="fa fa-quote-left"></i><span class="hidden-xs-inline"> [[topic:quote]]</span></button>
-										<button component="post/reply" class="btn btn-sm btn-link <!-- IF !privileges.topics:reply -->hidden<!--ENDIF !privileges.topics:reply -->" type="button"><i class="fa fa-reply"></i><span class="hidden-xs-inline"> [[topic:reply]]</span></button>
+										<button component="post/quote" class="btn btn-sm btn-link <!-- IF !privileges.topics:reply -->hidden<!-- ENDIF !privileges.topics:reply -->" type="button" title="[[topic:quote]]"><i class="fa fa-quote-left"></i><span class="hidden-xs-inline"> [[topic:quote]]</span></button>
+										<button component="post/reply" class="btn btn-sm btn-link <!-- IF !privileges.topics:reply -->hidden<!-- ENDIF !privileges.topics:reply -->" type="button"><i class="fa fa-reply"></i><span class="hidden-xs-inline"> [[topic:reply]]</span></button>
 									</span>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
-				<!-- IF !posts.index -->
-				<div class="post-bar" data-index="{posts.index}">
-					<!-- IMPORT partials/post_bar.tpl -->
-				</div>
-				<!-- ENDIF !posts.index -->
 			</li>
-
 		<!-- END posts -->
 	</ul>
 
-	<div class="post-bar col-xs-12 <!-- IF unreplied -->hidden<!-- ENDIF unreplied --> bottom-post-bar">
+	<div class="post-bar col-xs-12">
 		<!-- IMPORT partials/post_bar.tpl -->
 	</div>
 
