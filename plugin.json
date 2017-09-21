@@ -18,7 +18,7 @@
 			"hook": "filter:widget.render:news", "method": "renderNews"
 		},
 		{
-			"hook": "filter:widget.render:footerinfo", "method": "renderFooter",
+			"hook": "filter:widget.render:footerinfo", "method": "renderFooter"
 		},
 		{
 			"hook": "static:app.preload", "method": "preinit"
