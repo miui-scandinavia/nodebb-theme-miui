@@ -21,6 +21,6 @@
     "url": "https://github.com/miui-scandinavia/nodebb-theme-miui/issues"
   },
   "nbbpm": {
-    "compatibility": "^1.4.4"
+    "compatibility": "^1.7.0"
   }
 }
