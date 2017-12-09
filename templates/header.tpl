@@ -36,7 +36,7 @@
 	<link
 		rel="stylesheet"
 		type="text/css"
-		href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags32.css" />
+		href="//cdn.rawgit.com/lafeber/world-flags-sprite/master/stylesheets/flags32.css" />
 
 </head>
 
